@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
 
-function App() {
+function Error() {
   return (
     <div>
         <Helmet>
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Error;
