@@ -5,6 +5,6 @@ var error = require('../controllers/error')
 
 router.get('/', home.home)
 router.get('/home', home.home)
-router.get('*', error.error)
+//router.get('*', error.error)
 
 module.exports = router
