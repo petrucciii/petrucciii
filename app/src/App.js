@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
-import Home from './components/home';
-//import Error from './components/error';
+import HomeIt from './components/home';
+import HomeEn from './components/home';
+import ErrorIt from './components/error';
+import ErrorEn from './components/error';
 
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
       <Helmet>
         <title>Riccardo Petrucci</title>
       </Helmet>
-      <form action="../../post" method="post" className="form">
-        <button type="submit">Connected?</button>
-      </form>
+      <HomeEn/>
+      <HomeIt/>
+      <ErrorEn/>
+      <ErrorIt/>
+
     </div>
   );
 }
