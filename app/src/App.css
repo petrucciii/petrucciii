@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    
 }
 
 .header{
@@ -18,12 +18,11 @@ body{
     color: aqua;
 }
 
-
 .header h3 a:hover{
     color: #dbdbdb;
 }
 
 #main_img{
-    background: url(images/bg.jpg) no-repeat ;
-    padding: 20%;
+    background: url(images/main_img.jpg) no-repeat fixed;
+    height: 400px;
 }
