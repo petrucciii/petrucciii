@@ -2,8 +2,6 @@ import React from 'react';
 import '../App.css';
 import {Helmet} from "react-helmet";
 
-
-
 function ErrorIt() {
   return (
     <div>
@@ -14,15 +12,4 @@ function ErrorIt() {
   );
 }
 
-function ErrorEn() {
-  return (
-    <div>
-      <Helmet>
-        <title>Riccardo Petrucci - Error 404</title>
-      </Helmet>
-    </div>
-  );
-}
-
 export default ErrorIt;
-export default ErrorEn;
