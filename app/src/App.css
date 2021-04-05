@@ -15,7 +15,7 @@ body{
 
 .header h3 a{
     text-decoration: none;
-    color: aqua;
+    color: blue;
 }
 
 .header h3 a:hover{
@@ -24,27 +24,23 @@ body{
 
 #main_img{
     background: url(images/main_img.jpg) no-repeat fixed;
-    height: 400px;
+    height: 500px;
 }
 
 .info{
     padding: 100px;
-    background-color: #865ad5;
+    background-color: #8989aa;
 }
 
 .card{
     margin-left: 5%;
     display: inline-block;
     border-color: black;
-    border-width: 3px;
+    background-color: #0b0b9985;
+    border-width: 1px;
     width: 300px;
-    height: 350px;
+    height: 310px;
     border-radius: 30px;
-}
-
-.card:hover{
-    background-color: purple;
-    color: yellow;
 }
 
 .card_content{
@@ -55,4 +51,95 @@ body{
 
 .card_title{
     color: black;
+}
+
+#copyright{
+    background-color: #404040;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+	color: #000;
+    background-color: #404040;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.socialbtns{
+    background-color: #404040;
+    margin-bottom: -19px;
+}
+
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtnsbtnsbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	color: #FFF;
+	text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-webkit-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-moz-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-o-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-webkit-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+	color: #000;
+	text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-webkit-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-moz-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-o-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	transition: all ease 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+}
+
+.space{
+    background-color: #404040;
+    padding: 10px;
 }
