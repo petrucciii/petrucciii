@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    
+    background-color: #6b6b6b;
 }
 
 .header{
@@ -29,7 +29,6 @@ body{
 
 .info{
     padding: 100px;
-    background-color: #8989aa;
 }
 
 .card{
@@ -38,8 +37,8 @@ body{
     border-color: black;
     background-color: #0b0b9985;
     border-width: 1px;
-    width: 300px;
-    height: 310px;
+    width: 90%;
+    height: 300px;
     border-radius: 30px;
 }
 
