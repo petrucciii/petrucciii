@@ -1,12 +1,11 @@
 body{
     margin: 0;
-    background-color: #6b6b6b;
 }
 
 .header{
-    background-color: #404040;
     padding: 20px;
     margin: 0;
+	background-color: #404040;
 }
 
 .header h3{
@@ -30,10 +29,9 @@ body{
 
 .card{
     margin-left: 5%;
-	background-color: #6b6b6b;
 	text-align: center;
     width: 90%;
-    height: 300px;
+    height: 250px;
 }
 
 .card_content{
@@ -136,3 +134,16 @@ a, a:hover {
     background-color: #404040;
     padding: 10px;
 }
+
+.edilpagotto{
+	background-color: white;
+	color: blue;
+	text-decoration: underline;
+}
+
+.edilpagotto:hover{
+	background-color: white;
+	color: blue;
+	text-decoration: underline;
+}
+
