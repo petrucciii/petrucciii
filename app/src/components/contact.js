@@ -12,13 +12,10 @@ class Contact extends Component{
                     <img src={contact} alt="CONTATTI" style={{width: "100px", height: "100px"}}/>
                     <h4 className="card_title" align="center">CONTATTI</h4>
                     <div className="display-6">
-                      <div><a className="edilpagotto" target="_blank" rel="noreferrer" href="https://www.github.com/petrucciii/">Github</a></div>
-                      <div><a className="edilpagotto" target="_blank" rel="noreferrer" href="https://www.instagram.com/rickypetrucci.js/">Instagram</a></div>
-                      <div><a className="edilpagotto" target="_blank" rel="noreferrer" href="mailto:riccardo.petrucci99@gmail.com">riccardo.petrucci99@gmail.com</a></div>
+                       <div><a className="edilpagotto" target="_blank" rel="noreferrer" href="https://www.github.com/petrucciii/">Github</a></div>
+                       <div><a className="edilpagotto" target="_blank" rel="noreferrer" href="https://www.instagram.com/rickypetrucci.js/">Instagram</a></div>
+                        <div><a className="edilpagotto" target="_blank" rel="noreferrer" href="mailto:riccardo.petrucci99@gmail.com">riccardo.petrucci99@gmail.com</a></div>
                     </div>
-                    <form className="email_send">
-
-                    </form>
                 </div>
             </div>
         </div>
