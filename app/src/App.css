@@ -30,13 +30,8 @@ body{
 
 .card{
     margin-left: 5%;
-    display: inline-block;
-    border-color: black;
-    background-color: #0b0b9985;
-    border-width: 1px;
     width: 90%;
     height: 300px;
-    border-radius: 30px;
 }
 
 .card_content{
