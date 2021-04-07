@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
 import who from '../images/who.jpg';
-import { Button } from 'react-bootstrap';
 
 class Info extends Component{
   render(){
