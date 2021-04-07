@@ -5,6 +5,8 @@ import HomeIt from './components/home';
 //import ErrorIt from './components/error';
 import Header from './components/header';
 import Footer from './components/footer';
+import Info from './components/info';
+import Contact from './components/contact';
 
 class App extends Component{
   render(){
@@ -15,6 +17,8 @@ class App extends Component{
         </Helmet>
         <Header/>
         <HomeIt/>
+        <Info/>
+        <Contact/>
         <Footer/>
       </div>
     );
