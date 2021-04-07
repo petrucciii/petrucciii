@@ -6,7 +6,7 @@ import ErrorIt from './components/error';
 import Header from './components/header';
 import Footer from './components/footer';
 
-class App extends Component() {
+class App extends Component{
   render(){
     return (
       <div>
