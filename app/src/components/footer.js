@@ -10,10 +10,10 @@ class Footer extends Component {
           <div align="center" className="socialbtns">
             <ul>
               <li>
-                <a target="_blank" href="https://www.github.com/petrucciii/" className="fa fa-lg fa-github"> </a>
+                <a target="_blank" rel="noreferrer" href="https://www.github.com/petrucciii/" className="fa fa-lg fa-github"> </a>
               </li>
               <li>
-                <a target="_blank" href="https://www.instagram.com/rickypetrucci.js/" className="fa fa-lg fa-instagram"> </a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/rickypetrucci.js/" className="fa fa-lg fa-instagram"> </a>
               </li>
             </ul>
           </div>

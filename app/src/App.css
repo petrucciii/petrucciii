@@ -30,6 +30,8 @@ body{
 
 .card{
     margin-left: 5%;
+	background-color: #6b6b6b;
+	text-align: center;
     width: 90%;
     height: 300px;
 }
