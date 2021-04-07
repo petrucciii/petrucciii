@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css';
 
-function Header() {
-  return (
-    <div>
-      <header className="header">
-        <h3>
-          <a href="/">RICCARDO PETRUCCI</a>
-        </h3>
-      </header>
-    </div>
-  );
+class Header extends Component() {
+  render(){
+    return (
+      <div>
+        <header className="header">
+          <h3>
+            RICCARDO PETRUCCI
+          </h3>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default Header;
