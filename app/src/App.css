@@ -196,3 +196,9 @@ a, a:hover {
 	border-radius: 12px;
 	height: 10%;
 }
+
+.txtarea{
+	width: 30%;
+	border-radius: 12px;
+	height: 80px;
+}
