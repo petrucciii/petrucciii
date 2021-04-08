@@ -147,3 +147,19 @@ a, a:hover {
 	text-decoration: underline;
 }
 
+.icons{
+	text-decoration: none;
+	color: black;
+	width: 10%;
+	height: 3%;
+	background-color: white;
+
+}
+
+.icons:hover{
+	text-decoration: none;
+	color: white;
+	width: 10%;
+	height: 3%;
+	background-color: black;
+}
