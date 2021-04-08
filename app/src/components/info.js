@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import '../mobile.css';
 import who from '../images/who.jpg';
 
 class Info extends Component{

@@ -11,6 +11,7 @@ class HomeIt extends Component {
           <title>Riccardo Petrucci - Home</title>
         </Helmet>
         <div id="main_img"></div>
+        
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import '../mobile.css';
 import contact from '../images/contact.jpg';
 
 class Contact extends Component{
@@ -15,11 +16,11 @@ class Contact extends Component{
                       <form className="form-contact" action="">
                         <label className="text">Nome</label>
                         <br/>
-                        <input type="text" className="name" Name="name"></input>
+                        <input type="text" className="name" name="name"></input>
                         <br/>
                         <label className="text">E-Mail</label>
                         <br/>
-                        <input type="e-mail" className="e-mail" Name="e-mail"></input>
+                        <input type="e-mail" className="e-mail" name="e-mail"></input>
                         <br/>
                         <label className="text">Oggetto</label>
                         <br/>
