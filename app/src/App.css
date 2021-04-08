@@ -202,3 +202,11 @@ a, a:hover {
 	border-radius: 12px;
 	height: 80px;
 }
+
+input[type = submit] {
+	background-color: black;
+	border: none;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+ }
