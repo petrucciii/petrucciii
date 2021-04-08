@@ -34,6 +34,15 @@ body{
 	text-align: center;
     width: 90%;
     height: 250px;
+	border-color: white;
+}
+
+.card-contact{
+	margin-top: -5%;
+    margin-left: 5%;
+	text-align: center;
+    width: 90%;
+    height: 500px;
 }
 
 .card_content{
@@ -162,4 +171,9 @@ a, a:hover {
 	width: 10%;
 	height: 3%;
 	background-color: black;
+}
+
+.form{
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
