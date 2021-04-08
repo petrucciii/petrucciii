@@ -70,7 +70,9 @@ class Contact extends Component{
                           className="fa fa-lg fa icons" 
                           id="icon-3" target="_blank" 
                           rel="noreferrer" 
-                          href="mailto:riccardo.petrucci99@gmail.com">E-Mail
+                          href="mailto:riccardo.petrucci99@gmail.com"
+                          aria-disabled="false">
+                            E-Mail
                         </a>
                       </div>
                     </div>
