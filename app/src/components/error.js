@@ -11,6 +11,9 @@ class ErrorIt extends Component {
         </Helmet>
         <div className="error-404">
           <div className="error">ERRORE</div>
+          <div className="e-404">404</div>
+          <div className="back-home-cont">
+          </div>
         </div>
       </div>
     );

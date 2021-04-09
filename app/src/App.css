@@ -222,5 +222,12 @@ input[type = submit]:hover {
 
 .error{
 	margin-top: 10%;
-	font-size: larger;
+	font-size: 40px;
+	color: #505050;
+}
+
+.e-404{
+	margin-top: 1%;
+	font-size: 80px;
+	color: aqua;
 }
