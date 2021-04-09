@@ -227,7 +227,25 @@ input[type = submit]:hover {
 }
 
 .e-404{
-	margin-top: 1%;
+	margin-top: -1%;
 	font-size: 80px;
 	color: aqua;
+}
+
+.back-home-cont{
+	margin-top: 2%;
+	margin-bottom: 10%;
+}
+
+.back-home{
+	text-decoration: none;
+	background-color: white;
+	color: #404040;
+	font-size: larger;
+}
+
+.back-home:hover{
+	text-decoration: underline;
+	background-color: white;
+	color: black;
 }

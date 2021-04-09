@@ -13,6 +13,12 @@ class ErrorIt extends Component {
           <div className="error">ERRORE</div>
           <div className="e-404">404</div>
           <div className="back-home-cont">
+            <a 
+              href="/"
+              className="back-home"
+            >
+              TORNA ALLA HOME
+            </a>
           </div>
         </div>
       </div>
