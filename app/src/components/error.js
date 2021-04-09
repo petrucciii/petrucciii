@@ -9,6 +9,9 @@ class ErrorIt extends Component {
         <Helmet>
           <title>Riccardo Petrucci - Errore 404</title>
         </Helmet>
+        <div className="error-404">
+          <div className="error">ERRORE</div>
+        </div>
       </div>
     );
   }

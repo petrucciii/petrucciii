@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
-import HomeIt from './components/home';
-//import ErrorIt from './components/error';
+//import HomeIt from './components/home';
+import ErrorIt from './components/error';
 import Header from './components/header';
 import Footer from './components/footer';
-import Info from './components/info';
-import Contact from './components/contact';
+//import Info from './components/info';
+//import Contact from './components/contact';
 
 class App extends Component{
   render(){
@@ -16,9 +16,7 @@ class App extends Component{
           <title>Riccardo Petrucci</title>
         </Helmet>
         <Header/>
-        <HomeIt/>
-        <Info/>
-        <Contact/>
+        <ErrorIt/>
         <Footer/>
       </div>
     );
