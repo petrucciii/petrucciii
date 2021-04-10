@@ -10,7 +10,7 @@ class HomeIt extends Component {
           <meta name="description" content="Sito Ufficiale di Riccardo Petrucci"/>
           <title>Riccardo Petrucci - Home</title>
         </Helmet>
-        <div id="main_img"></div>
+        <section class="curved"></section>
         
       </div>
     );

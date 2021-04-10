@@ -12,17 +12,12 @@ body{
 
 .header h3{
     text-align: center;
-	color: blue;
+	color: rgb(100, 1, 1);
 }
 
 
 .header h3 a:hover{
     color: #dbdbdb;
-}
-
-#main_img{
-    background: url(images/main_img.jpg) no-repeat fixed;
-    height: 500px;
 }
 
 .info{
@@ -248,4 +243,12 @@ input[type = submit]:hover {
 	text-decoration: underline;
 	background-color: white;
 	color: black;
+}
+  
+.curved {
+	position: relative;
+	background: #404040;
+	height: 10vh;
+	border-bottom-left-radius: 50% 15%;
+	border-bottom-right-radius: 50% 15%;
 }
