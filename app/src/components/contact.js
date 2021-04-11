@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
 import '../mobile.css';
-import Form from "../js/form";
 import contact from '../images/contact.jpg';
 
 class Contact extends Component{
@@ -84,7 +83,6 @@ class Contact extends Component{
             marginBottom: "15px"
         }}>
         </div>
-        <script src={Form}></script>
       </div>
     );
   }
