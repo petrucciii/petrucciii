@@ -184,6 +184,7 @@ a, a:hover {
 	width: 30%;
 	border-radius: 12px;
 	height: 10%;
+	outline-style: hidden;
 }
 
 .e-mail{

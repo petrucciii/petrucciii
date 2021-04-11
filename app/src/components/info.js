@@ -25,7 +25,7 @@ class Info extends Component{
                 CHI SONO
               </h4>
               <div className="display-6">
-                Sono un programmatore web, ho 6 mesi di esperienza sono un autodidatta e programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js, PHP e Django per il Back-End.
+                Sono un programmatore web, programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js, PHP e Django per il Back-End.
                 Faccio principalmente siti vetrina.
               </div>
             </div>
