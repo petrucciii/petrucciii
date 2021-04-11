@@ -248,7 +248,7 @@ input[type = submit]:hover {
 .curved {
 	position: relative;
 	background: #404040;
-	height: 10vh;
-	border-bottom-left-radius: 50% 15%;
-	border-bottom-right-radius: 50% 15%;
+	height: 8vh;
+	border-bottom-left-radius: 45% 30%;
+	border-bottom-right-radius: 45% 30%;
 }
