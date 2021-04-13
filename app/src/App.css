@@ -253,3 +253,22 @@ input[type = submit]:hover {
 	border-bottom-left-radius: 45% 30%;
 	border-bottom-right-radius: 45% 30%;
 }
+
+.footer{
+	text-align: center;
+	background-color: #404040;
+}
+
+.lang{
+	background-color: #404040;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.lang:hover{
+	background-color: #404040;
+	color: tomato;
+	text-decoration: underline;
+	text-align: center;
+}

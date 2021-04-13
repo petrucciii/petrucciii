@@ -32,6 +32,11 @@ class Footer extends Component {
               </li>
             </ul>
           </div>
+          <div>
+            <a className="lang">Ita</a>
+            <a className="lang">/</a>
+            <a className="lang">Eng</a>
+          </div>
           <div className="space"></div>
         </footer>
       </div>
