@@ -268,7 +268,28 @@ input[type = submit]:hover {
 
 .lang:hover{
 	background-color: #404040;
+	text-align: center;
+}
+
+#it{
+	margin-left: 45%;
+}
+
+#it:hover{
 	color: tomato;
 	text-decoration: underline;
-	text-align: center;
+	background-color: #404040;
+}
+
+#en:hover{
+	color: tomato;
+	text-decoration: underline;
+}
+
+#slash:hover{
+	color: white;
+}
+
+.lang-cont{
+	background-color: #404040;
 }

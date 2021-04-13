@@ -32,10 +32,10 @@ class Footer extends Component {
               </li>
             </ul>
           </div>
-          <div>
-            <a className="lang">Ita</a>
-            <a className="lang">/</a>
-            <a className="lang">Eng</a>
+          <div className="lang-cont">
+            <a className="lang" id="it">ITALIANO</a>
+            <a className="lang" id="slash">/</a>
+            <a className="lang" id="en">ENGLISH</a>
           </div>
           <div className="space"></div>
         </footer>
