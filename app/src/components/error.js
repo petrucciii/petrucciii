@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../stylesheets/App.css';
 import {Helmet} from "react-helmet";
 
-class ErrorIt extends Component {
+class Error extends Component {
   render(){
     return (
       <div>
@@ -26,4 +26,4 @@ class ErrorIt extends Component {
   }
 }
 
-export default ErrorIt;
+export default Error;

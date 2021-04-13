@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../App.css';
 import {Helmet} from "react-helmet";
 
-class HomeIt extends Component {
+class Home extends Component {
   render(){
     return (
       <div>
@@ -17,4 +17,4 @@ class HomeIt extends Component {
   }
 }
 
-export default HomeIt;
+export default Home;

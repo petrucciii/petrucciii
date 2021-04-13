@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
-import HomeIt from './components/home';
-//import ErrorIt from './components/error';
+import Home from './components/home';
+//import Error from './components/error';
 import Header from './components/header';
 import Footer from './components/footer';
 import Info from './components/info';
@@ -16,7 +16,7 @@ class App extends Component{
           <title>Riccardo Petrucci</title>
         </Helmet>
         <Header/>
-        <HomeIt/>
+        <Home/>
         <Info/>
         <Contact/>
         <Footer/>
