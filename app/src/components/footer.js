@@ -33,9 +33,9 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="lang-cont">
-            <a className="lang" id="it">ITALIANO</a>
-            <a className="lang" id="slash">/</a>
-            <a className="lang" id="en">ENGLISH</a>
+            <a className="lang" href="#" id="it">ITALIANO</a>
+            <a className="lang" href="#" id="slash">/</a>
+            <a className="lang" href="#" id="en">ENGLISH</a>
           </div>
           <div className="space"></div>
         </footer>
