@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import '../mobile.css';
 
 class Footer extends Component {
   render(){
