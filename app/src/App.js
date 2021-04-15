@@ -17,9 +17,9 @@ class App extends Component{
         </Helmet>
         <Header/>
         <Home/>
-        <Info/>
+        {/*<Info/>
         <Contact/>
-        <Footer/>
+        <Footer/>*/}
       </div>
     );
   }

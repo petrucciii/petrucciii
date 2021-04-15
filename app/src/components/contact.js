@@ -10,11 +10,11 @@ class Contact extends Component{
         <div className="contact">
             <div className="card-contact">
                 <div className="card_content">
-                    <img src={contact} alt="CONTATTI" style={{width: "100px", height: "100px"}}/>
+                    <img src={this.props.contact} alt="CONTATTI" style={{width: "100px", height: "100px"}}/>
                     <h4 className="card_title" align="center">CONTATTI</h4>
                     <div className="form">
                       <form className="form-contact" >
-                        <label className="text">{name}</label>
+                        <label className="text">{this.props.name}</label>
                         <br/>
                         <input 
                           type="text" 
@@ -22,7 +22,7 @@ class Contact extends Component{
                           name="name"
                         />
                         <br/>
-                        <label className="text">{e-mail}</label>
+                        <label className="text">{this.props.email}</label>
                         <br/>
                         <input
                           type="e-mail" 
@@ -30,7 +30,7 @@ class Contact extends Component{
                           name="e-mail"
                         />
                         <br/>
-                        <label className="text">{subject}</label>
+                        <label className="text">{this.props.subject}</label>
                         <br/>
                         <textarea
                           type="text" 
@@ -41,7 +41,7 @@ class Contact extends Component{
                         <input
                           type="submit"
                           className="send-button"
-                          value={send}
+                          value={this.props.send}
                           name="submit"
                         />
                       </form>

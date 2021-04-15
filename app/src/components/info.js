@@ -11,7 +11,7 @@ class Info extends Component{
           <div className="card">
             <div className="card_content">
             <img 
-              src={whoImg} 
+              src={this.props.whoImg} 
               alt="CHISONO" 
               style={{
                 width: "100px",
@@ -22,9 +22,9 @@ class Info extends Component{
                 className="card_title" 
                 align="center"
               >
-                {who}
+                {this.props.who}
               </h4>
-              <div className="display-6">{who_content}</div>
+              <div className="display-6">{this.props.who_content}</div>
             </div>
           </div>
         </div>
