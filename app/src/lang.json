@@ -1,4 +1,15 @@
 {
+    "footer": {
+
+        "footerIt": {
+            "copyright": "Copyright &copy; 2021. Riccardo Petrucci. Tutti i diritti riservati."
+        },
+
+        "footerEn": {
+            "copyright": "Copyright &copy; 2021. Riccardo Petrucci. All Rights Reserved."
+        }
+
+    },
     "info": {
 
         "infoIt":{
@@ -10,15 +21,33 @@
             "who": "WHO AM I",
             "who_content": "I am a web developer, I program with React.js, Bootstrap, HTML and CSS for the Front-End and Node.js and Django for the Back-End. I mainly do showcase sites."
         }
+
     },
 
     "contact":{
 
         "contactIt":{
+
             "form":{
-                "name": "NOME"
+                "name": "NOME",
+                "e-mail": "E-MAIL",
+                "subject": "OGGETTO",
+                "send": "INVIA"
             }
+
+        },
+
+        "contactEn":{
+
+            "form":{
+                "name": "NAME",
+                "e-mail": "E-MAIL",
+                "subject": "SUBJECT",
+                "send": "SEND"
+            }
+
         }
+
     }
     
 }
