@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div>
         <footer>
-          <div id="copyright">Copyright &copy; 2021. Tutti i diritti riservati.</div>
+          <div id="copyright">{copyright}</div>
           <div 
             align="center" 
             className="socialbtns"

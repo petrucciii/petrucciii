@@ -14,7 +14,7 @@ class Contact extends Component{
                     <h4 className="card_title" align="center">CONTATTI</h4>
                     <div className="form">
                       <form className="form-contact" >
-                        <label className="text">Nome</label>
+                        <label className="text">{name}</label>
                         <br/>
                         <input 
                           type="text" 
@@ -22,7 +22,7 @@ class Contact extends Component{
                           name="name"
                         />
                         <br/>
-                        <label className="text">E-Mail</label>
+                        <label className="text">{e-mail}</label>
                         <br/>
                         <input
                           type="e-mail" 
@@ -30,7 +30,7 @@ class Contact extends Component{
                           name="e-mail"
                         />
                         <br/>
-                        <label className="text">Oggetto</label>
+                        <label className="text">{subject}</label>
                         <br/>
                         <textarea
                           type="text" 
@@ -41,7 +41,7 @@ class Contact extends Component{
                         <input
                           type="submit"
                           className="send-button"
-                          value="Invia"
+                          value={send}
                           name="submit"
                         />
                       </form>

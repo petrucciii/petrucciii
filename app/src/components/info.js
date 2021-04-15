@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import '../mobile.css';
-import who from '../images/who.jpg';
+import whoImg from '../images/who.jpg';
 
 class Info extends Component{
   render(){
@@ -11,23 +11,20 @@ class Info extends Component{
           <div className="card">
             <div className="card_content">
             <img 
-              src={who} 
+              src={whoImg} 
               alt="CHISONO" 
               style={{
                 width: "100px",
-                 height: "100px"
+                height: "100px"
               }}
             />
               <h4 
                 className="card_title" 
                 align="center"
               >
-                CHI SONO
+                {who}
               </h4>
-              <div className="display-6">
-                Sono un programmatore web, programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js, PHP e Django per il Back-End.
-                Faccio principalmente siti vetrina.
-              </div>
+              <div className="display-6">{who_content}</div>
             </div>
           </div>
         </div>
