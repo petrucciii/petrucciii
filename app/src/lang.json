@@ -1,0 +1,24 @@
+{
+    "info": {
+
+        "infoIt":{
+            "who": "CHI SONO",
+            "who_content": "Sono un programmatore web, programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js e Django per il Back-End. Faccio principalmente siti vetrina."
+        },
+
+        "infoEn":{
+            "who": "WHO AM I",
+            "who_content": "I am a web developer, I program with React.js, Bootstrap, HTML and CSS for the Front-End and Node.js and Django for the Back-End. I mainly do showcase sites."
+        }
+    },
+
+    "contact":{
+
+        "contactIt":{
+            "form":{
+                "name": "NOME"
+            }
+        }
+    }
+    
+}
