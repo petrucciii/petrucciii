@@ -153,10 +153,11 @@ a, a:hover {
 }
 
 .icons{
+	margin-left: -5%;
 	text-decoration: none;
 	color: black;
-	width: 10%;
-	height: 3%;
+	width:13%;
+	height: 5%;
 	background-color: white;
 
 }
