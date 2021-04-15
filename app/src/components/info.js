@@ -11,7 +11,7 @@ class Info extends Component{
           <div className="card">
             <div className="card_content">
             <img 
-              src={this.props.whoImg} 
+              src={whoImg} 
               alt="CHISONO" 
               style={{
                 width: "100px",

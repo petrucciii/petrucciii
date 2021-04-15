@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import '../mobile.css';
-import contact from '../images/contact.jpg';
+import contactImg from '../images/contact.jpg';
 
 class Contact extends Component{
   render(){
@@ -10,7 +10,7 @@ class Contact extends Component{
         <div className="contact">
             <div className="card-contact">
                 <div className="card_content">
-                    <img src={this.props.contact} alt="CONTATTI" style={{width: "100px", height: "100px"}}/>
+                    <img src={contactImg} alt="CONTATTI" style={{width: "100px", height: "100px"}}/>
                     <h4 className="card_title" align="center">CONTATTI</h4>
                     <div className="form">
                       <form className="form-contact" >
