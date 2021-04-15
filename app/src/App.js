@@ -27,7 +27,7 @@ class App extends Component{
       {
         id: 3, 
         name: "NOME",
-        emmail: "E-MAIL",
+        email: "E-MAIL",
         subject: "OGGETTO",
         send: "INVIA"
       }
@@ -36,7 +36,7 @@ class App extends Component{
       {
         id: 4, 
         name: "NAME",
-        emmail: "E-MAIL",
+        email: "E-MAIL",
         subject: "SUBJECT",
         send: "SEND"
       }
@@ -44,13 +44,13 @@ class App extends Component{
     footerIt: [
       {
         id: 5, 
-        copyright: "Copyright &copy; 2021. Riccardo Petrucci. Tutti i Diritti Riservati"
+        copyright: "Tutti i Diritti Riservati."
       }
     ],
     footerEn: [
       {
         id: 6, 
-        copyright: "Copyright &copy; 2021. Riccardo Petrucci. All Rights Reserved."
+        copyright: "All Rights Reserved."
       }
     ],
   }
@@ -62,9 +62,28 @@ class App extends Component{
         </Helmet>
         <Header/>
         <Home/>
-        <Info/>
-        <Contact/>
-        <Footer/>
+        {this.state.infoIt.map(info => (
+          <Info
+            key={info.id}
+            who={info.who}
+            who_content={info.who_content}
+          />
+        ))}
+        {this.state.contactIt.map(contact => (
+          <Contact
+            key={contact.id}
+            name={contact.name}
+            email={contact.email}
+            subject={contact.subject}
+            send={contact.send}
+          />
+        ))}
+        {this.state.footerIt.map(footer => (
+          <Footer
+            key={footer.id}
+            copyright={footer.copyright}
+          />
+        ))}
       </div>
     );
   }
