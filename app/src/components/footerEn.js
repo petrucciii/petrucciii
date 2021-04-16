@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../App.css';
 import '../mobile.css';
 
-class Footer extends Component {
+class FooterEn extends Component {
   render(){
     return (
       <div>
@@ -33,6 +33,11 @@ class Footer extends Component {
               </li>
             </ul>
           </div>
+          <div className="lang-cont">
+            <a className="lang" href="#" id="it" >ITALIANO</a>
+            <a className="lang" href="#" id="slash">/</a>
+            <a className="lang" href="#" id="en">ENGLISH</a>
+          </div>
           <div className="space"></div>
         </footer>
       </div>
@@ -40,4 +45,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default FooterEn;

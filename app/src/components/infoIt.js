@@ -3,7 +3,7 @@ import '../App.css';
 import '../mobile.css';
 import whoImg from '../images/who.jpg';
 
-class Info extends Component{
+class InfoIt extends Component{
   render(){
     return (
       <div>
@@ -33,4 +33,4 @@ class Info extends Component{
   }
 }
 
-export default Info;
+export default InfoIt;

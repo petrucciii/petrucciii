@@ -3,7 +3,7 @@ import '../App.css';
 import '../mobile.css';
 import contactImg from '../images/contact.jpg';
 
-class Contact extends Component{
+class ContactIt extends Component{
   render(){
     return (
       <div>
@@ -88,4 +88,4 @@ class Contact extends Component{
   }
 }
 
-export default Contact;
+export default ContactIt;
