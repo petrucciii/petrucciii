@@ -65,7 +65,30 @@ class App extends Component{
         </Helmet>
         <Header/>
         <Home/>
-        {this.state.infoIt.map(info => (
+        {this.state.infoEn.map(info => (
+          <InfoEn
+            onlangChange={this.langChange}
+            key={info.id}
+            who={info.who}
+            who_content={info.who_content}
+          />
+        ))}
+        {this.state.contactEn.map(contact => (
+          <ContactEn
+            key={contact.id}
+            name={contact.name}
+            email={contact.email}
+            subject={contact.subject}
+            send={contact.send}
+          />
+        ))}
+        {this.state.footerEn.map(footer => (
+          <FooterEn
+            key={footer.id}
+            copyright={footer.copyright}
+          />
+        ))}
+        {/*{this.state.infoIt.map(info => (
           <InfoIt
             onlangChange={this.langChange}
             key={info.id}
@@ -87,7 +110,7 @@ class App extends Component{
             key={footer.id}
             copyright={footer.copyright}
           />
-        ))}
+        ))}*/}
       </div>
     );
   }
