@@ -34,9 +34,9 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="lang-cont">
-            <a className="lang" href="#" id="it">ITALIANO</a>
+            <a className="lang" href="#" id="it" onClick={this.props.changeLangIt}>ITALIANO</a>
             <a className="lang" href="#" id="slash">/</a>
-            <a className="lang" href="#" id="en">ENGLISH</a>
+            <a className="lang" href="#" id="en" onClick={this.props.changeLangEn}>ENGLISH</a>
           </div>
           <div className="space"></div>
         </footer>

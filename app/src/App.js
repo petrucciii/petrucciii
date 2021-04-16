@@ -62,13 +62,32 @@ class App extends Component{
         </Helmet>
         <Header/>
         <Home/>
+        {function changeLangit() {
+          {this.state.infoIt.map(info => (
+            <Info
+              key={info.id}
+              who={info.who}
+              who_content={info.who_content}
+            />
+          ))}
+        }}
+        {function changeLangen() {
+          {this.state.infoEn.map(info => (
+            <Info
+              key={info.id}
+              who={info.who}
+              who_content={info.who_content}
+            />
+          ))}
+        }}
         {this.state.infoIt.map(info => (
-          <Info
-            key={info.id}
-            who={info.who}
-            who_content={info.who_content}
-          />
+            <Info
+              key={info.id}
+              who={info.who}
+              who_content={info.who_content}
+            />
         ))}
+        
         {this.state.contactIt.map(contact => (
           <Contact
             key={contact.id}
