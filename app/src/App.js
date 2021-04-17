@@ -29,6 +29,7 @@ class App extends Component{
     contactIt: [
       {
         id: 3, 
+        contact: "CONTATTI",
         name: "NOME",
         email: "E-MAIL",
         subject: "OGGETTO",
@@ -38,6 +39,7 @@ class App extends Component{
     contactEn: [
       {
         id: 4, 
+        contact: "CONTACT",
         name: "NAME",
         email: "E-MAIL",
         subject: "SUBJECT",
@@ -80,6 +82,7 @@ class App extends Component{
             email={contact.email}
             subject={contact.subject}
             send={contact.send}
+            contact={contact.contact}
           />
         ))}
         {this.state.footerEn.map(footer => (
@@ -90,7 +93,6 @@ class App extends Component{
         ))}
         {/*{this.state.infoIt.map(info => (
           <InfoIt
-            onlangChange={this.langChange}
             key={info.id}
             who={info.who}
             who_content={info.who_content}
@@ -103,6 +105,7 @@ class App extends Component{
             email={contact.email}
             subject={contact.subject}
             send={contact.send}
+            contact={contact.contact}
           />
         ))}
         {this.state.footerIt.map(footer => (
