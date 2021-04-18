@@ -11,7 +11,7 @@ class ContactIt extends Component{
             <div className="card-contact">
                 <div className="card_content">
                     <img src={contactImg} alt="CONTATTI" style={{width: "100px", height: "100px"}}/>
-                    <h4 className="card_title" align="center">CONTATTI</h4>
+                    <h4 className="card_title" align="center">{this.props.contact}</h4>
                     <div className="form">
                       <form className="form-contact" >
                         <label className="text">{this.props.name}</label>
