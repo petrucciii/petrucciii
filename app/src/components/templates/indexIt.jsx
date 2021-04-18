@@ -24,7 +24,7 @@ function index() {
                 CHI SONO
               </h4>
             <div className="display-6">
-            "Sono un programmatore web, programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js e Django per il Back-End. Faccio principalmente siti vetrina.
+              Sono un programmatore web, programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js e Django per il Back-End. Faccio principalmente siti vetrina.
             </div>
           </div>
         </div>
