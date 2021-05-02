@@ -35,9 +35,9 @@ class FooterEn extends Component {
             </ul>
           </div>
           <div className="lang-cont">
-          <Link to="/it"><a className="lang" id="it" >ITALIANO</a></Link>
-          <a className="lang" href="javascript:void(0);" id="slash">/</a>
-          <Link to="/en"><a className="lang" style={{color: 'tomato'}} id="en">ENGLISH</a></Link>
+          <Link to="/it"><a className="lang" href="#" id="it" >ITALIANO</a></Link>
+          <a className="lang" href="#" id="slash">/</a>
+          <Link to="/en"><a className="lang" href="#" style={{color: 'tomato'}} id="en">ENGLISH</a></Link>
           </div>
           <div className="space"></div>
         </footer>

@@ -15,7 +15,7 @@ class Error extends Component {
           <div className="e-404">404</div>
           <div className="back-home-cont">
             <Link to="/" style={{backgroundColor: 'white'}}>
-              <a className="back-home">
+              <a className="back-home" href="#">
               TORNA ALLA HOME
               </a>
             </Link>
