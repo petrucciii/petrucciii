@@ -6,7 +6,7 @@ class FooterIt extends Component {
   render(){
     return (
       <div>
-        <footer>
+        <footer style={{backgroundColor: '#404040'}}>
           <div id="copyright">Copyright &copy; 2021. Riccardo Petrucci. {this.props.copyright}</div>
           <div 
             align="center" 
@@ -34,7 +34,7 @@ class FooterIt extends Component {
             </ul>
           </div>
           <div className="lang-cont">
-            <a className="lang" href="javascript:void(0);" id="it" >ITALIANO</a>
+            <a className="lang" href="javascript:void(0);" style={{color: 'tomato'}} id="it" >ITALIANO</a>
             <a className="lang" href="javascript:void(0);" id="slash">/</a>
             <a className="lang" href="javascript:void(0);" id="en">ENGLISH</a>
           </div>

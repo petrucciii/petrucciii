@@ -1,6 +1,7 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 body{
+	font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -226,7 +227,7 @@ input[type = submit]:hover {
 .e-404{
 	margin-top: -1%;
 	font-size: 80px;
-	color: aqua;
+	color: brown;
 }
 
 .back-home-cont{
@@ -237,7 +238,7 @@ input[type = submit]:hover {
 .back-home{
 	text-decoration: none;
 	background-color: white;
-	color: #404040;
+	color: rgb(100, 1, 1);
 	font-size: larger;
 }
 

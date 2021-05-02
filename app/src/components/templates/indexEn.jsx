@@ -63,7 +63,7 @@ function index() {
                     <input
                       type="submit"
                       className="send-button"
-                      value="INVIA"
+                      value="SEND"
                       name="submit"
                     />
                   </form>
