@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 import '../App.css';
 import '../mobile.css';
 
@@ -34,9 +35,9 @@ class FooterEn extends Component {
             </ul>
           </div>
           <div className="lang-cont">
-            <a className="lang" href="javascript:void(0);" id="it" >ITALIANO</a>
-            <a className="lang" href="javascript:void(0);" id="slash">/</a>
-            <a className="lang" href="javascript:void(0);" style={{color: 'tomato'}} id="en">ENGLISH</a>
+          <Link to="/it"><a className="lang" id="it" >ITALIANO</a></Link>
+          <a className="lang" href="javascript:void(0);" id="slash">/</a>
+          <Link to="/en"><a className="lang" style={{color: 'tomato'}} id="en">ENGLISH</a></Link>
           </div>
           <div className="space"></div>
         </footer>

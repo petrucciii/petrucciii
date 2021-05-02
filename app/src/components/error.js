@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 import '../App.css';
 import {Helmet} from "react-helmet";
 
@@ -13,12 +14,11 @@ class Error extends Component {
           <div className="error">ERRORE</div>
           <div className="e-404">404</div>
           <div className="back-home-cont">
-            <a 
-              href="/"
-              className="back-home"
-            >
+            <Link to="/" style={{backgroundColor: 'white'}}>
+              <a className="back-home">
               TORNA ALLA HOME
-            </a>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
