@@ -11,13 +11,13 @@ body{
 	background-color: #404040;
 }
 
-.header h3{
+.header h1{
     text-align: center;
 	color: rgb(100, 1, 1);
 }
 
 
-.header h3 a:hover{
+.header h1 a:hover{
     color: #dbdbdb;
 }
 

@@ -1,22 +1,15 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
-import Home from './components/home';
-//import Error from './components/error';
-import Header from './components/header';
-import FooterIt from './components/footerIt';
-import InfoIt from './components/infoIt';
-import ContactIt from './components/contactIt';
-import FooterEn from './components/footerEn';
-import InfoEn from './components/infoEn';
-import ContactEn from './components/contactEn';
+import Error404 from './pages/Error';
+import HomeIt from './pages/HomeIt';
 
 class App extends Component{
   state = {
     infoIt: [
       {
         id: 0, 
-        who: "CHI SIAMO", 
+        who: "CHI SONO", 
         who_content: "Sono un programmatore web, programmo con React.js, Bootstrap, HTML e CSS per il Front-End e Node.js e Django per il Back-End. Faccio principalmente siti vetrina."}
     ],
     infoEn: [
@@ -65,7 +58,10 @@ class App extends Component{
         <Helmet>
           <title>Riccardo Petrucci</title>
         </Helmet>
-        <Header/>
+        <HomeIt/>
+
+        {/*<Error404/>*/}
+        {/*<Header/>
         <Home/>
         {this.state.infoEn.map(info => (
           <InfoEn
@@ -91,7 +87,7 @@ class App extends Component{
             copyright={footer.copyright}
           />
         ))}
-        {/*{this.state.infoIt.map(info => (
+        {this.state.infoIt.map(info => (
           <InfoIt
             key={info.id}
             who={info.who}
@@ -111,7 +107,7 @@ class App extends Component{
         {this.state.footerIt.map(footer => (
           <FooterIt
             key={footer.id}
-            copyright={footer.copyright}
+            copyright={footer.copyright
           />
         ))}*/}
       </div>

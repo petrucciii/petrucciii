@@ -2,20 +2,20 @@ import React, {Component} from 'react';
 import Header from '../components/header';
 import Home  from '../components/home';
 import Error from '../components/error';
-import Footer from '../components/footerIt';
+import FooterIt from '../components/footerIt';
 
-class Error extends Component{
+class Error404 extends Component{
     render(){
         return(
             <div>
                 <Header/>
                 <Home/>
                 <Error/>
-                <Footer/>
+                <FooterIt/>
             </div>
         )
     }
 }
 
 
-export default Error;
+export default Error404;

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../stylesheets/App.css';
+import '../App.css';
 import {Helmet} from "react-helmet";
 
 class Error extends Component {

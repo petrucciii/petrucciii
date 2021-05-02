@@ -7,9 +7,9 @@ class Header extends Component{
     return (
       <div>
         <header className="header">
-          <h3>
+          <h1>
             RICCARDO PETRUCCI
-          </h3>
+          </h1>
         </header>
       </div>
     );
